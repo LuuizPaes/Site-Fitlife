@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=The+Nautigal&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo:ital,wght@1,400;1,700&family=The+Nautigal&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arvo', serif, sans-serif;
+  color: #222222;
+  background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+    url(./Imagens/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-bg {
+  background-color: rgba(22, 22, 22, 0);
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menu-logo a {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-menu a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+
+.nav-menu a:hover {
+  color: #d1d80e;
+}
+
+.menu-logo a:hover {
+  color: #d1d80e;
+}
+
+h1 {
+  font-size: 30px;
+  color: #d1d80e;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.contatos-info {
+  font-size: 20px;
+  color: #fff;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: column;
+}
